@@ -51,11 +51,11 @@ a {
     padding-bottom: 30px;
 }
 
-p {
+p.hero-text {
     width: 600px;
     color:#E5E7EB;
     font-size:18px;
-    margin-top:-30px;
+    margin-top: -30px;
 }
 
 .hero-button {
@@ -76,7 +76,7 @@ p {
 .hero {
     display:flex;
     flex-direction: column;
-    padding: 42px;
+    padding-left: 42px;
 }
 
 .info {
@@ -105,11 +105,16 @@ p {
     padding: 16px;
     margin: 16px;
     width: 300px;
+    text-align: center;
 }
 
 .c-image {
     height: 150px;
     width: 300px;
+}
+
+p.image {
+    width: 275px;
 }
 
 .quote-container {
@@ -130,7 +135,7 @@ p {
     width: 700px;
 }
 
-.person {
+.author {
     text-align: right;
 }
 
@@ -150,6 +155,15 @@ p {
     align-items: center;
     background-color: #3882F6;
     border-radius: 15px 50px 30px 5px;
+}
+
+h2.c-t-a-head {
+    color:#E5E7EB;
+}
+
+p.c-t-a-text {
+    color:#E5E7EB;
+    font-size:18px;
 }
 
 .c-t-a-btn {
